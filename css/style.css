@@ -1,0 +1,54 @@
+.container {
+    background-color: yellow;
+    width: 100%;
+    
+}
+.container__box {
+    
+    background-color: yellow;
+}
+.container__box--pink {
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+.container__box--pin {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+}
+
+.container__box--pink {
+    background-color: palevioletred;
+}
+
+.container__box--small {
+    width: 200px;
+    height: 280px;
+    float: left;
+}
+.container__box--blue {
+    background-color: blueviolet;
+}
+.container__box--green {
+    width: 250px;
+    height: 300px;
+    
+}
+.container__box--green{
+    background-color: green;
+}
+container__box--left {
+    float: left;
+}
+.container__box--right {
+    float: right;
+}
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
